@@ -24,6 +24,8 @@ docker run  \
    nginx-server 
 ```
 
+Alternatively, you can simple run `./run.sh`, the script will do everything to create the docker container for you.
+
 Once the docker container is running, you can connect it via SSH with the command below. The password is just `nginx`. You can change that in the Dockerfile line 28 (`$(echo "<your_password>" ...`)
 
 ```bash
